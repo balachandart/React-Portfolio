@@ -1,0 +1,14 @@
+.points__container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+}
+
+.points__container .points__card{
+  text-align: center;
+  transition: var(--transition);
+}
+
+.points__container .points__card small{
+  color: var(--color-muted);
+}
